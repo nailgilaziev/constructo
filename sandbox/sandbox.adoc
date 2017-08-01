@@ -1,0 +1,39 @@
+== Получение данных
+
+Пользователь получает данные
+
+
+
+[source, json]
+----
+{
+   "mcv":2,
+   "ui":{
+     "name":"",
+     "rev":33
+   },
+   "fields":{
+      "title":"Title for entity",
+      "body":"Can be long <h2>html</h2> text",
+      "photo":{
+         "id":4,
+         "name":"IMG_20150324_120506.jpg"
+      },
+      "location":{
+         "lon":49.1420645,
+         "lat":55.7745272,
+         "date":1422336455000
+      }
+   }
+}
+----
+
+теперь в процессе редактирование заголовок мог меняться
+
+[source, json]
+----
+{
+
+   "title":"Title for entity"
+}
+----
