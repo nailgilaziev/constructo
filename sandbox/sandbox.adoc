@@ -36,7 +36,7 @@
         "t":1501688742045,
         "v":{
           "id":4,
-          "name":"IMG_20150324_120506.jpg"
+          "name":"objectnamestring"
         }
       }
     ],
@@ -101,14 +101,26 @@ link:../migration/migration.adoc[о миграции]
         "v":null
       }
     ],
-    "photos.uniqueIdentif1":[
+    "photos.photoUniqueIdentificator1":[
       {
         "t":153456789112,
-        "v":"any object structure that confirm to protocol"
+        "v":{
+            "name":"image1",
+            "ref":"ubrewergwERGWHhwe4y54gGEg45gQwef"
+          }
       },
       {
         "t":153456789112,
         "v":null
+      }
+    ],
+    "photos.newPhotoUniqueIdentificator2":[
+      {
+        "t":153456789112,
+        "v":{
+            "name":"image2",
+            "ref":"ubrewergwERGWHhwe4y54gGEg45gQwef"
+          }
       }
     ]
   }
