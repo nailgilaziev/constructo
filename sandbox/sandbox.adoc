@@ -51,6 +51,19 @@
       }
     ],
     "photos":{
+      "photoUniqueIdentificator0":[
+        {
+          "t":1501688742045,
+          "v":{
+            "name":"image1",
+            "ref":"ubrewergwERGWHhwe4y54gGEg45gQwef"
+          }
+        },
+        {
+          "t":1501688742045,
+          "v":null
+        }
+      ],
       "photoUniqueIdentificator1":[
         {
           "t":1501688742045,
