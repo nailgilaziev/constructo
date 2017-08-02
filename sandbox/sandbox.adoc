@@ -7,52 +7,49 @@
 [source, json]
 ----
 {
-    "mcv":2,
-    "tds":1501688742045,
-    "ui":{
-        "name":"",
-        "rev":33
-    },
-    "tc":1501688742045,
-    "tu":1501688742045,
-    "data":{
-        "title":{
-            "t":1501688742045,
-            "v":"Title for entity"
-        },
-        "body":{
-            "t":1501688742045,
-            "v":"Can be long <h2>html</h2> text"
-        },
-        "objectref":{
-            "t":1501688742045,
-            "v":{
-                "id":4,
-                "name":"IMG_20150324_120506.jpg"
-            }
-        },
-        "location":{
-            "t":1501688742045,
-            "v":{
-                "lon":49.1420645,
-                "lat":55.7745272,
-                "date":1422336455000
-            }
-        },
-        "photos":{
-            "t":1501688742045,
-            "v":[
-                {
-                    "name":"image1",
-                    "ref":"ubrewergwERGWHhwe4y54gGEg45gQwef"
-                },
-                {
-                    "name":"image2",
-                    "ref":"tbfrewrrgwEDGWdQwe4y54gGEg45gUlge"
-                }
-            ]
+  "mcv":2,
+  "tds":1501688742045,
+  "ui":[{
+    "t":1501688742045,
+    "rev":33,
+    "name":""
+  }],
+  "tc":1501688742045,
+  "tu":1501688742045,
+  "data":{
+    "title":[{
+      "t":1501688742045,
+      "v":"Title for entity"
+    }],
+    "body":[{
+      "t":1501688742045,
+      "v":"Can be long <h2>html</h2> text"
+    }],
+    "objectref":[{
+      "t":1501688742045,
+      "v":{
+        "id":4,
+        "name":"IMG_20150324_120506.jpg"
+      }
+    }],
+    "location":[{
+      "t":1501688742045,
+      "v":{
+        "lon":49.1420645,
+        "lat":55.7745272,
+        "date":1422336455000
+      }
+    }],
+    "photos":{
+      "photoUniqueIdentificator1":[{
+        "t":1501688742045,
+        "v":{
+          "name":"image1",
+          "ref":"ubrewergwERGWHhwe4y54gGEg45gQwef"
         }
+      }]
     }
+  }
 }
 ----
 [cols="1,2", options="header"]
@@ -71,28 +68,40 @@ link:../migration/migration.adoc[о миграции]
 [source, json]
 ----
 {
-  "mcv":2,
-  "tds":1458965214,
-  "tdc":1456874526,
-  "tuc":1456889564,
-  "failedUploads":[
-    {
-      "time":14568745445,
-      "cause":"Тут текст или код ошибки надо отправлять. ошибка может быть локальная или от сервера."
-    }
-  ],
-  "changes":{
-    "title":[
+   "mcv":2,
+   "tds":1458965214,
+   "tdc":1456874526,
+   "tuc":1456889564,
+   "failedUploads":[
       {
-        "time":1456987562,
-        "value":"Первое изменение поля"
-      },
-      {
-        "time":1456987662,
-        "value":"Второе изменение поля"
-      },
-    ]
-  }
+         "time":14568745445,
+         "cause":"Тут текст или код ошибки надо отправлять. ошибка может быть локальная или от сервера."
+      }
+   ],
+   "changes":{
+      "title":[
+         {
+            "t":1456987562,
+            "v":"Первое изменение поля"
+         },
+         {
+            "t":1456987662,
+            "v":null
+         }
+      ],
+      "photos":{
+      "uniqueIdentif1":
+      [
+         {
+            "t":153456789112,
+            "v":"any object structure that confirm to protocol"
+         },
+         {
+            "t":153456789112,
+            "v":null
+         }
+      ]
+   }
 }
 ----
 
