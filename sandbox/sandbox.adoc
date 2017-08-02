@@ -12,7 +12,7 @@
      "name":"",
      "rev":33
    },
-   "fields":{
+   "data":{
       "title":"Title for entity",
       "body":"Can be long <h2>html</h2> text",
       "photo":{
@@ -27,6 +27,22 @@
    }
 }
 ----
+[cols="3*", options="header"]
+|===
+|Field
+|Web Browser
+|Ruby
+
+|mcv
+|TorqueBox
+|<<../versioning/versioning.adoc,cross>>
+
+|link:../versioning/versioning.adoc[link]
+|
+|
+|===
+
+include::../versioning/versioning.adoc[]
 
 теперь в процессе редактирование заголовок мог меняться
 
